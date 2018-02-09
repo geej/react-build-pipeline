@@ -18,6 +18,9 @@ module.exports = {
           './node_modules/**/*'
         ],
         options: {
+          plugins: [
+            'transform-react-jsx'
+          ],
           presets: [
             'es2015'
           ]
