@@ -4,17 +4,21 @@
   "description": "Build pipeline for testing, linting, transpiling, and bundling a React app.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint"
+    "eslint": "eslint",
+    "webpack": "webpack"
   },
   "bin": {
-    "rbp-lint": "./bin/lint.js"
+    "rbp-lint": "./bin/lint.js",
+    "rbp-bundle": "./bin/bundle.js"
   },
   "author": "me@jeffg.ee",
   "license": "UNLICENSED",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
