@@ -7,7 +7,7 @@
     "eslint": "eslint"
   },
   "bin": {
-    "rbp-lint": "./bin/lint"
+    "rbp-lint": "./bin/lint.js"
   },
   "author": "me@jeffg.ee",
   "license": "UNLICENSED",
