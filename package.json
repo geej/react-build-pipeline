@@ -7,7 +7,7 @@
     "eslint": "eslint"
   },
   "bin": {
-    "rbp-lint": "npm run eslint"
+    "rbp-lint": "./bin/lint"
   },
   "author": "me@jeffg.ee",
   "license": "UNLICENSED",
