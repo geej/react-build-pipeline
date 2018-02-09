@@ -14,7 +14,7 @@
     "rbp-server": "./bin/server.js"
   },
   "author": "me@jeffg.ee",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
