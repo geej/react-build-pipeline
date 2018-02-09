@@ -1,14 +1,13 @@
 const Path = require('path');
-const cwd = process.cwd();
 
 module.exports = {
   entry: './src/App.js',
   output: {
-    path: Path.join(cwd, 'dist'),
+    path: Path.join(process.env.BASE_PATH, 'dist'),
     filename: 'app.js'
   },
   devtool: 'source-map',
-  context: cwd,
+  context: process.env.BASE_PATH,
   target: 'web',
   module: {
     rules: [
