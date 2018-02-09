@@ -9,7 +9,8 @@
   },
   "bin": {
     "rbp-lint": "./bin/lint.js",
-    "rbp-bundle": "./bin/bundle.js"
+    "rbp-bundle": "./bin/bundle.js",
+    "rbp-server": "./bin/server.js"
   },
   "author": "me@jeffg.ee",
   "license": "UNLICENSED",
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
