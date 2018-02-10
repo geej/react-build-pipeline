@@ -25,11 +25,9 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
-          plugins: [
-            'transform-react-jsx'
-          ],
           presets: [
-            'es2015'
+            'es2015',
+            'react',
           ]
         }
       }
