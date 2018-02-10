@@ -17,7 +17,7 @@ module.exports = {
         loader: 'eslint-loader',
         exclude: /node_modules/,
         options: {
-          configFile: Path.join(__dirname, '..', '.eslintrc')
+          configFile: Path.join(__dirname, '.eslintrc')
         }
       },
       {
