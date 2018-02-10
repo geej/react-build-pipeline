@@ -16,7 +16,9 @@ module.exports = {
         test: /\.jsx?$/,
         loader: 'eslint-loader',
         exclude: /node_modules/,
-        configFile: Path.join(__dirname, '..', '.eslintrc')
+        options: {
+          configFile: Path.join(__dirname, '..', '.eslintrc')
+        }
       },
       {
         test: /\.jsx?$/,
