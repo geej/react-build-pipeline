@@ -2,6 +2,9 @@ const Path = require('path');
 
 module.exports = {
   entry: './src/App.js',
+  resolve: {
+    extensions: [ '', '.js', '.jsx' ]
+  },
   output: {
     path: Path.join(process.env.BASE_PATH, 'dist'),
     filename: 'app.js'
