@@ -1,5 +1,5 @@
 # react-build-pipeline
-Because the biggest barrier to me coding for fun is setting up Webpack.
+Because the biggest barrier to me coding for fun is setting up Webpack. 'But why don't you use create-react-app?' ¯\\_(ツ)_/¯
 
 ## Goals
 This repository aims to be a one-stop-build-pipeline shop for a simple React app that adheres to a few conventions.
