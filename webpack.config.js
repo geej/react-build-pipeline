@@ -29,9 +29,9 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           presets: [
+            'flow',
             'env',
-            'react',
-            'flow'
+            'react'
           ]
         }
       },
