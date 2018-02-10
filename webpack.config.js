@@ -12,11 +12,16 @@ module.exports = {
   module: {
     rules: [
       {
+        enforce: 'pre',
+        test: /\.jsx?$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/,
+        configFile: Path.join(__dirname, '..', '.eslintrc')
+      },
+      {
         test: /\.jsx?$/,
         loader: 'babel-loader',
-        exclude: [
-          './node_modules/**/*'
-        ],
+        exclude: /node_modules/,
         options: {
           plugins: [
             'transform-react-jsx'
