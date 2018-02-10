@@ -18,9 +18,7 @@ module.exports = {
         enforce: 'pre',
         test: /\.jsx?$/,
         loader: 'eslint-loader',
-        exclude: [
-          './node_modules/**/*'
-        ],
+        exclude: /node_modules/,
         options: {
           configFile: Path.join(__dirname, '.eslintrc')
         }
@@ -28,9 +26,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',
-        exclude: [
-          './node_modules/**/*'
-        ],
+        exclude: /node_modules/,
         options: {
           presets: [
             'es2015',
