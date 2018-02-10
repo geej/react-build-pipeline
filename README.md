@@ -14,6 +14,6 @@ Well, the conventions are pretty reasonable things, I think. For example:
 4. You like **flow** over prop-types
 5. You like **sass**
 
-## How do I use it.
+## How do I use it?
 1. ```npm install --save-dev react-build-pipeline``` (not yet released on npm)
 2. Use the utils ```rbp-lint``` ```rbp-bundle``` ```rbp-server``` to lint your code, bundle your code, and run a dev server.
