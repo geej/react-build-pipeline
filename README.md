@@ -1,5 +1,6 @@
 # react-build-pipeline
-Because the biggest barrier to me coding for fun is setting up Webpack. 'But why don't you use create-react-app?' ¯\\_(ツ)_/¯
+Because the biggest barrier to me coding for fun is setting up Webpack. 
+'But why don't you use create-react-app?' ¯\\_(ツ)_/¯
 
 ## Goals
 This repository aims to be a one-stop-build-pipeline shop for a simple React app that adheres to a few conventions.
@@ -10,6 +11,8 @@ Well, the conventions are pretty reasonable things, I think. For example:
 1. All of your source code lives in /src
 2. All of your static assets live in /public
 3. The entry point for your app is App.js
+4. You like **flow** over prop-types
+5. You like **sass**
 
 ## How do I use it.
 1. ```npm install --save-dev react-build-pipeline``` (not yet released on npm)
