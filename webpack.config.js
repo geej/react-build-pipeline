@@ -1,7 +1,10 @@
 const Path = require('path');
 
 module.exports = {
-  entry: './src/App.js',
+  entry: [
+    'babel-polyfill',
+    './src/App.js'
+  ],
   resolve: {
     extensions: [ '.js', '.jsx' ]
   },
