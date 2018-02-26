@@ -32,7 +32,10 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
-          plugins: [ 'transform-class-properties' ],
+          plugins: [
+            'transform-class-properties',
+            'transform-object-rest-spread'
+          ],
           presets: [
             'env',
             'react'
